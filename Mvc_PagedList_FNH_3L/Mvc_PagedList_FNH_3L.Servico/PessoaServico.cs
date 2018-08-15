@@ -17,7 +17,7 @@ namespace Mvc_PagedList_FNH_3L.Servico
             pessoaRepo = new PessoaRepositorio();
         }
 
-        public IEnumerable<IPessoa> Pessoas()
+        public IEnumerable<Pessoa> Pessoas()
         {
             return pessoaRepo.Pessoas();
         }

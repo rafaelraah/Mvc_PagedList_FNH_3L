@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Mvc_PagedList_FNH_3L.Repositorio.NHibernate.Map
 {
-    public class PessoaMap : ClassMap<IPessoa>
+    public class PessoaMap : ClassMap<Pessoa>
     {
         public PessoaMap()
         {

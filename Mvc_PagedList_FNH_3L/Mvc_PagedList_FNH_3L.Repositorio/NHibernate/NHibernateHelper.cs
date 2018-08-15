@@ -19,7 +19,7 @@ namespace Mvc_PagedList_FNH_3L.Repositorio.NHibernate
                   .ConnectionString(@"Data Source=(local)\sqlexpress;Initial Catalog=PagedList;Integrated Security=True")
                               .ShowSql()
                 )
-               .Mappings(m => m.FluentMappings.AddFromAssemblyOf<IPessoa>())
+               .Mappings(m => m.FluentMappings.AddFromAssemblyOf<Pessoa>())
                .ExposeConfiguration(cfg => new SchemaExport(cfg).Create(false, false))
                .BuildSessionFactory();
             return sessionFactory.OpenSession();

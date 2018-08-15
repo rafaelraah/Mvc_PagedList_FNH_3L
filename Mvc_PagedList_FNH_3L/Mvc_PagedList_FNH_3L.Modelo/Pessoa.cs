@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Mvc_PagedList_FNH_3L.Modelo
 {
-    public interface IPessoa
+    public abstract class Pessoa
     {
-        int Id { get; set; }
-        string Nome { get; set; }
-        int Idade { get; set; }
+        public int Id { get; set; }
+        public string Nome { get; set; }
+        public int Idade { get; set; }
     }
 }

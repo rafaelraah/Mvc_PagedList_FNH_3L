@@ -6,10 +6,7 @@ using System.Web;
 
 namespace Mvc_PagedList_FNH_3L.Models
 {
-    public class Pessoa : IPessoa
+    public class PessoaModel : Pessoa
     {
-        public int Id { get; set; }
-        public string Nome { get; set; }
-        public int Idade { get; set; }
     }
 }
